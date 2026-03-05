@@ -1,0 +1,22 @@
+python model.py
+Original Shape: (32581, 12)
+Target Distribution:
+loan_status
+0    0.781836
+1    0.218164
+Name: proportion, dtype: float64
+Numeric columns: 7
+Low-card categorical columns: ['person_home_ownership', 'loan_intent', 'loan_grade', 'cb_person_default_on_file']
+C:\Users\RICHA MISHRA\AppData\Roaming\Python\Python313\site-packages\sklearn\linear_model\_logistic.py:473: ConvergenceWarning: lbfgs failed to converge after 1000 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=1000).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+Train Score: 0.8472605893186004
+Test Score: 0.8503912843332821
+Model saved successfully as credit_risk_model.pkl
+  )
